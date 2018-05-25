@@ -18,6 +18,34 @@ hr {
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
+
+
+#headerNav {
+    overflow: hidden;
+    background-color: #D3D3D3;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    right:0;
+    width: 100%; /* Full width */
+    height: 8%;
+    z-index:999;
+}
+
+#headerNav li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+#headerNav li:hover {
+    background: #ddd;
+    color: black;
+}
+
+
 .jumbotron .container {
   padding: 75px 0;
 }
@@ -98,28 +126,4 @@ hr {
   color: rgba(255, 255, 255, 0.25);
 }
 
-#headerNav {
-    overflow: hidden;
-    background-color: #D3D3D3;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    right:0;
-    width: 100%; /* Full width */
-    height: 8%;
-    z-index:999;
-}
-
-#headerNav li {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    /*padding: 14px 16px;*/
-    text-decoration: none;
-}
-
-#headerNav li:hover {
-    background: #ddd;
-    color: black;
-}
 
