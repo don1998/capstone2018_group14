@@ -40,6 +40,10 @@ hr {
     text-decoration: none;
 }
 
+#forceupdate {
+  height:100%;
+}
+
 #headerNav li:hover {
     background: #ddd;
     color: black;
