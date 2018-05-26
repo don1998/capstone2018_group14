@@ -20,6 +20,15 @@ hr {
 }
 
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(http://www.fontspace.com/m%C3%A5ns-greb%C3%A4ck/saker-sans-bold-personal-use);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
 #headerNav {
     overflow: hidden;
     background-color: white;
