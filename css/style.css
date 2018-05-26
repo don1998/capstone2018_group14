@@ -44,6 +44,10 @@ hr {
   height:100%;
 }
 
+.unitypic{
+  float:right;
+}
+
 #headerNav li:hover {
     background: #ddd;
     color: black;
